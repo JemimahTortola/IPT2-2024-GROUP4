@@ -1,0 +1,97 @@
+.dashboard {
+    display: flex;
+    padding: 20px;
+
+    .dashboard-content {
+        flex: 1;
+        padding-left: 20px;
+
+        .welcome-metric {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .welcome-text {
+                flex: 1;
+                h2 {
+                    font-size: 1.5rem;
+                    margin: 0;
+                }
+                p {
+                    margin: 5px 0 0;
+                }
+            }
+
+            .avatar {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                margin-left: 20px;
+            }
+        }
+
+        .metrics-section {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+
+            .metric-item {
+                text-align: center;
+                h3 {
+                    font-size: 1.5rem;
+                    color: #007bff;
+                }
+                p {
+                    margin: 0;
+                }
+            }
+        }
+
+        .courses-section {
+            margin-bottom: 20px;
+
+            .course-item {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 10px 0;
+
+                h4 {
+                    margin: 0;
+                }
+
+                .view-btn {
+                    background-color: #007bff;
+                    color: white;
+                    border: none;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #0056b3;
+                    }
+                }
+            }
+        }
+
+        .instructors-section {
+            margin-bottom: 20px;
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    margin: 5px 0;
+                }
+            }
+        }
+
+        .daily-notice-section {
+            h3 {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
